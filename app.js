@@ -3,7 +3,7 @@ const router = express.Router();
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 
-mongoose.connect("mongodb://localhost/mydatabase", {
+mongoose.connect("mongodb+srv://1:1@signup.gxcneko.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
